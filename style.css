@@ -1,0 +1,60 @@
+body {
+    background-image: url('bgImage.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    margin-right: 120px;
+}
+
+form {
+    width: 600px;
+    border: 2px;
+    padding: 30px;
+    background: rgb(202, 229, 240);
+}
+
+input {
+    border: 2px;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.gender {
+    border: 2px;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+button {
+    float: right;
+    background: green;
+    padding: 10px 15px;
+    color: #fff;
+    margin-right: 10px;
+    border: none;
+}
+
+a {
+    float: right;
+    background: red;
+    padding: 10px 15px;
+    color: #fff;
+    margin-right: 10px;
+    border: none;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.errorMsg {
+    color: red;
+}
